@@ -29,9 +29,10 @@ class _PersonalDataState extends State<PersonalData> {
             Text("Cancel registration?"),
             TextButton(
                 onPressed: () {
-                  Navigator.of(context).pop();
+                  Navigator.of(context)
+                      .pushNamedAndRemoveUntil("/splash", (route) => false);
                 },
-                child: Text("Continue"))
+                child: Text("EXIT"))
           ],
         )),
         child: ListView(
