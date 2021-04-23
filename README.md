@@ -1,4 +1,4 @@
-# champion_neobank
+# Champion
 
 A new Flutter project.
 
